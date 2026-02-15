@@ -5,7 +5,7 @@ export default function CaseStudies() {
   return (
     <>
       <Head>
-        <title>Case Studies | TrustLayer Technologies</title>
+        <title>Case Studies | NexChunk</title>
         <meta
           name="description"
           content="Delivered platforms including NGO systems, financial MLM applications, and real-time educational platforms built using scalable MERN architecture."

@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <>
       <Head>
-        <title>Services | TrustLayer Technologies</title>
+        <title>Services | NexChunk</title>
         <meta
           name="description"
           content="Enterprise-grade data reconciliation, internal automation systems, and scalable MERN stack application engineering."
@@ -24,10 +24,10 @@ export default function Services() {
           </h1>
 
           <p className="mt-6 text-lg text-gray-400 max-w-3xl">
-            TrustLayer Technologies delivers enterprise-grade internal
-            platforms, automation systems, and scalable application
-            architectures designed for organizations modernizing legacy
-            operations and high-volume workflows.
+            NexChunk delivers enterprise-grade internal platforms, automation
+            systems, and scalable application architectures designed for
+            organizations modernizing legacy operations and high-volume
+            workflows.
           </p>
         </div>
       </section>

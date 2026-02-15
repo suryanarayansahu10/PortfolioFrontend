@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-white text-lg font-semibold tracking-wide">
-              TrustLayer Technologies
+              NexChunk
             </h3>
             <p className="mt-4 text-sm leading-relaxed">
               Engineering enterprise-grade internal platforms, automation
@@ -74,7 +74,7 @@ export default function Footer() {
               Contact
             </h4>
             <ul className="mt-6 space-y-3 text-sm">
-              <li>Email: consult@trustlayertech.com</li>
+              <li>Email: consult@nexchunk.com</li>
               <li>Consultation: By Appointment</li>
               <li>
                 <a
@@ -91,13 +91,19 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-white/10 mt-5 pt-2 text-sm text-center">
-          © {new Date().getFullYear()} TrustLayer Technologies. All rights
-          reserved.
-          <span className="ml-2 text-gray-500">
-            Independent engineering consultancy. All engagements subject to NDA
-            upon request.
-          </span>
+        <div className="border-t border-white/10 mt-5 pt-4 text-sm text-center text-gray-400">
+          © {new Date().getFullYear()} NexChunk. All rights reserved.
+          <span className="mx-2">|</span>
+          Independent engineering consultancy. All engagements subject to NDA
+          upon request.
+          <span className="mx-2">|</span>
+          <Link href="/privacy" className="hover:text-white transition">
+            Privacy Policy
+          </Link>
+          <span className="mx-2">|</span>
+          <Link href="/terms" className="hover:text-white transition">
+            Terms & Conditions
+          </Link>
         </div>
       </div>
     </footer>

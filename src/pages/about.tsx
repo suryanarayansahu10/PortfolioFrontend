@@ -5,10 +5,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About | TrustLayer Technologies</title>
+        <title>About | NexChunk</title>
         <meta
           name="description"
-          content="TrustLayer Technologies is an engineering-led consultancy focused on automation systems, reconciliation platforms, and scalable software architecture."
+          content="NexChunk is an engineering-led consultancy focused on automation systems, reconciliation platforms, and scalable software architecture."
         />
       </Head>
 
@@ -17,7 +17,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-sm uppercase tracking-widest text-blue-400">
-              About TrustLayer
+              About NexChunk
             </p>
 
             <h1 className="mt-4 text-4xl md:text-5xl font-semibold text-white tracking-tight">
@@ -25,9 +25,9 @@ export default function About() {
             </h1>
 
             <p className="mt-6 text-lg text-gray-400">
-              TrustLayer Technologies was founded to deliver structured,
-              security-conscious, and automation-first engineering solutions for
-              organizations transitioning away from legacy and manual systems.
+              NexChunk was founded to deliver structured, security-conscious,
+              and automation-first engineering solutions for organizations
+              transitioning away from legacy and manual systems.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export default function About() {
               Scalable platforms require architectural foresight.
             </p>
             <p className="mt-6 text-gray-400">
-              TrustLayer exists to engineer that clarity.
+              NexChunk exists to engineer that clarity.
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function About() {
             </h2>
 
             <p className="mt-6 text-gray-400">
-              The foundation of TrustLayer is built on hands-on exposure to
+              The foundation of NexChunk is built on hands-on exposure to
               high-volume operational systems, financial validation workflows,
               and enterprise-grade automation engineering.
             </p>
@@ -66,7 +66,7 @@ export default function About() {
 
           <div>
             <p className="text-gray-400 leading-relaxed">
-              Beyond consulting, TrustLayer integrates full-stack engineering
+              Beyond consulting, NexChunk integrates full-stack engineering
               capability across React, Node.js, Python, and cloud-native
               infrastructure — ensuring both architectural strategy and
               implementation discipline remain aligned.
@@ -125,9 +125,9 @@ export default function About() {
           </h2>
 
           <p className="mt-8 text-gray-400 leading-relaxed">
-            TrustLayer Technologies is structured for disciplined growth,
-            delivering high-reliability automation platforms, reconciliation
-            systems, and secure internal software solutions for global clients.
+            NexChunk is structured for disciplined growth, delivering
+            high-reliability automation platforms, reconciliation systems, and
+            secure internal software solutions for global clients.
           </p>
 
           <div className="mt-12">

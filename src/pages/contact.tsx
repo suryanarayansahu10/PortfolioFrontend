@@ -32,10 +32,10 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact | TrustLayer Technologies</title>
+        <title>Contact | NexChunk</title>
         <meta
           name="description"
-          content="Contact TrustLayer Technologies for Enterprise-grade internal platforms, automation systems, and scalable MERN stack applications."
+          content="Contact NexChunk for Enterprise-grade internal platforms, automation systems, and scalable MERN stack applications."
         />
       </Head>
 
@@ -47,7 +47,7 @@ export default function Contact() {
               Consultation
             </p>
             <h1 className="mt-3 text-4xl font-semibold text-white tracking-tight">
-              Engage With TrustLayer
+              Engage With NexChunk
             </h1>
             <p className="mt-6 text-gray-400 text-lg">
               Whether you are planning a system migration, automation
@@ -100,7 +100,7 @@ export default function Contact() {
               <input
                 type="hidden"
                 name="_subject"
-                value="New TrustLayer Inquiry"
+                value="New NexChunk Inquiry"
               />
               <input type="hidden" name="_next" value="/thank-you" />
               <div>
@@ -159,7 +159,7 @@ export default function Contact() {
               <input
                 type="hidden"
                 name="_subject"
-                value="New TrustLayer Inquiry"
+                value="New NexChunk Inquiry"
               />
 
               <div>

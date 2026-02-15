@@ -5,10 +5,10 @@ export default function Security() {
   return (
     <>
       <Head>
-        <title>Security | TrustLayer Technologies</title>
+        <title>Security | NexChunk</title>
         <meta
           name="description"
-          content="TrustLayer Technologies applies security-first engineering principles, encrypted data handling, and structured validation controls for enterprise system engagements."
+          content="NexChunk applies security-first engineering principles, encrypted data handling, and structured validation controls for enterprise system engagements."
         />
       </Head>
 
@@ -24,10 +24,9 @@ export default function Security() {
           </h1>
 
           <p className="mt-6 text-lg text-gray-400 max-w-3xl">
-            TrustLayer Technologies operates with structured engineering
-            discipline, applying secure processing methodologies and controlled
-            data handling practices aligned with enterprise-grade system
-            expectations.
+            NexChunk operates with structured engineering discipline, applying
+            secure processing methodologies and controlled data handling
+            practices aligned with enterprise-grade system expectations.
           </p>
         </div>
       </section>
@@ -102,7 +101,7 @@ export default function Security() {
           </h2>
 
           <p className="mt-6 text-gray-400 max-w-3xl">
-            TrustLayer engagements operate under structured consultation,
+            NexChunk engagements operate under structured consultation,
             controlled scope definitions, and optional Non-Disclosure Agreements
             (NDA) upon request prior to project initiation.
           </p>

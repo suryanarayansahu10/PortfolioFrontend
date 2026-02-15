@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TrustLayer Technologies</title>
+        <title>NexChunk</title>
         <meta
           name="description"
           content="Enterprise-grade internal platforms, automation systems, and scalable MERN stack applications."
@@ -20,9 +20,9 @@ export default function Home() {
           </h1>
 
           <p className="mt-6 text-lg text-gray-400 max-w-2xl">
-            TrustLayer Technologies designs and builds enterprise-grade internal
-            platforms, automation systems, and scalable MERN stack applications
-            for organizations modernizing legacy infrastructure and high-volume
+            NexChunk designs and builds enterprise-grade internal platforms,
+            automation systems, and scalable MERN stack applications for
+            organizations modernizing legacy infrastructure and high-volume
             operational workflows.
           </p>
 
@@ -102,7 +102,7 @@ export default function Home() {
       <section className="bg-[#0E2240] text-gray-200">
         <div className="max-w-6xl mx-auto px-6 py-12">
           <h2 className="text-3xl md:text-4xl font-semibold text-white">
-            Why TrustLayer
+            Why NexChunk
           </h2>
 
           <div className="mt-16 grid md:grid-cols-2 gap-12">
@@ -158,7 +158,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-6 text-lg text-gray-400 max-w-3xl">
-            TrustLayer platforms are designed with security-first architecture
+            NexChunk platforms are designed with security-first architecture
             principles. We prioritize encrypted processing, temporary data
             handling, and structured audit trails to ensure confidentiality and
             operational transparency.

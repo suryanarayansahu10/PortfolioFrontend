@@ -14,7 +14,7 @@ export default function Header() {
             href="/"
             className="text-xl font-semibold text-white tracking-wide"
           >
-            TrustLayer
+            NexChunk
           </Link>
 
           {/* Desktop Nav */}
