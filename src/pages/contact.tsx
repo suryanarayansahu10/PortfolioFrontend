@@ -58,152 +58,136 @@ export default function Contact() {
           </div>
 
           {/* Consultation CTA */}
-          <div className="mt-12 bg-[#132B4F] p-8 rounded-lg border border-white/10">
-            <h2 className="text-xl font-semibold text-white">
-              Schedule a Structured Consultation
-            </h2>
-            <p className="mt-4 text-gray-400">
-              Book a 30-minute strategic discussion to evaluate system
-              complexity, operational risks, and potential automation pathways.
-            </p>
-
-            <div className="mt-6">
-              <a
-                href={CALENDLY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-md transition"
-              >
-                Schedule Consultation
-              </a>
-            </div>
-          </div>
 
           {/* Divider */}
-          <div className="border-t border-white/10 mt-20"></div>
+          <div className="border-t border-white/10 mt-10"></div>
 
-          {/* Inquiry Form */}
-          <div className="mt-20 max-w-3xl">
-            <h2 className="text-2xl font-semibold text-white">
-              Project Inquiry
-            </h2>
-            <p className="mt-4 text-gray-400">
-              For detailed engagement discussions, provide a brief overview of
-              your initiative.
-            </p>
+          {/* Split Contact Section */}
+          <div className="mt-10 grid md:grid-cols-2 gap-16 items-start">
+            {/* Left Side Content */}
+            <div className="flex flex-col">
+              <div className="bg-[#132B4F] p-8 rounded-lg border border-white/10">
+                <h2 className="text-xl font-semibold text-white">
+                  Schedule a Structured Consultation
+                </h2>
+                <p className="mt-4 text-gray-400">
+                  Book a 30-minute strategic discussion to evaluate system
+                  complexity, operational risks, and potential automation
+                  pathways.
+                </p>
 
-            {/* <form
-              action={FORMSPREE_ENDPOINT}
-              method="POST"
-              className="mt-10 space-y-6"
-            >
-              <input
-                type="hidden"
-                name="_subject"
-                value="New NexChunk Inquiry"
-              />
-              <input type="hidden" name="_next" value="/thank-you" />
-              <div>
-                <label className="block text-sm text-gray-400">Full Name</label>
+                <div className="mt-6">
+                  <a
+                    href={CALENDLY_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-md transition"
+                  >
+                    Schedule Consultation
+                  </a>
+                </div>
+              </div>
+              <div className="mt-10">
+                <h2 className="text-2xl font-semibold text-white">
+                  Project Inquiry
+                </h2>
+                <p className="mt-6 text-gray-400 leading-relaxed">
+                  For structured engagement discussions, provide a brief
+                  overview of your initiative. We typically respond within 24
+                  business hours.
+                </p>
+
+                <div className="mt-10 space-y-6 text-gray-400">
+                  <div>
+                    <p className="text-white font-medium">What We Engage In</p>
+                    <ul className="mt-3 space-y-2 text-sm">
+                      <li>• Data validation & migration assurance</li>
+                      <li>• Internal automation systems</li>
+                      <li>• Admin dashboards & workflow platforms</li>
+                      <li>• Scalable MERN stack applications</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <p className="text-white font-medium">Engagement Model</p>
+                    <p className="mt-2 text-sm">
+                      Fixed-scope delivery or milestone-based consulting aligned
+                      with enterprise engineering standards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side Form */}
+            <div className="bg-[#132B4F] p-8 rounded-lg border border-white/10">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <input
-                  type="text"
-                  name="name"
-                  required
-                  className="mt-2 w-full bg-[#132B4F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
+                  type="hidden"
+                  name="_subject"
+                  value="New NexChunk Inquiry"
                 />
-              </div>
 
-              <div>
-                <label className="block text-sm text-gray-400">
-                  Work Email
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  className="mt-2 w-full bg-[#132B4F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
-                />
-              </div>
+                <div>
+                  <label className="block text-sm text-gray-400">
+                    Full Name
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    className="mt-2 w-full bg-[#1A355F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
+                  />
+                </div>
 
-              <div>
-                <label className="block text-sm text-gray-400">
-                  Organization
-                </label>
-                <input
-                  type="text"
-                  name="company"
-                  className="mt-2 w-full bg-[#132B4F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
-                />
-              </div>
+                <div>
+                  <label className="block text-sm text-gray-400">
+                    Work Email
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    className="mt-2 w-full bg-[#1A355F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
+                  />
+                </div>
 
-              <div>
-                <label className="block text-sm text-gray-400">
-                  Project Overview
-                </label>
-                <textarea
-                  name="message"
-                  rows={5}
-                  required
-                  className="mt-2 w-full bg-[#132B4F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
-                ></textarea>
-              </div>
+                <div>
+                  <label className="block text-sm text-gray-400">
+                    Mobile Number
+                  </label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="+91 / +1 / +44"
+                    className="mt-2 w-full bg-[#1A355F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
+                  />
+                </div>
 
-              <button
-                type="submit"
-                className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-md transition"
-              >
-                Submit Inquiry
-              </button>
-            </form> */}
-            <form onSubmit={handleSubmit} className="mt-10 space-y-6">
-              <input
-                type="hidden"
-                name="_subject"
-                value="New NexChunk Inquiry"
-              />
+                <div>
+                  <label className="block text-sm text-gray-400">
+                    Project Overview
+                  </label>
+                  <textarea
+                    name="message"
+                    rows={4}
+                    required
+                    className="mt-2 w-full bg-[#1A355F] border border-white/10 rounded-md px-4 py-3 text-white focus:outline-none focus:border-blue-500"
+                  ></textarea>
+                </div>
 
-              <div>
-                <label className="block text-sm text-gray-400">Full Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  required
-                  className="mt-2 w-full bg-[#1A355F] border border-white/10 rounded-md px-4 py-3 text-white"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm text-gray-400">
-                  Work Email
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  className="mt-2 w-full bg-[#1A355F] border border-white/10 rounded-md px-4 py-3 text-white"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm text-gray-400">
-                  Project Overview
-                </label>
-                <textarea
-                  name="message"
-                  rows={5}
-                  required
-                  className="mt-2 w-full bg-[#1A355F] border border-white/10 rounded-md px-4 py-3 text-white"
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                disabled={loading}
-                className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-md transition"
-              >
-                {loading ? "Submitting..." : "Submit Inquiry"}
-              </button>
-            </form>
+                {/* Button aligned right */}
+                <div className="flex justify-end">
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-md transition disabled:opacity-60"
+                  >
+                    {loading ? "Submitting..." : "Submit Inquiry"}
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>

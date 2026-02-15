@@ -9,16 +9,19 @@ export default function Header() {
     <>
       <header className="bg-[#0E2240] border-b border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          {/* Logo */}
-          <Link
-            href="/"
-            className="text-xl font-semibold text-white tracking-wide"
-          >
-            NexChunk
+          {/* Logo + Brand grouped */}
+          <Link href="/" className="flex items-center space-x-3">
+            <img src="/logo.svg" alt="NexChunk Logo" className="h-10" />
+            <span className="text-xl font-semibold text-white tracking-wide">
+              NexChunk
+            </span>
           </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8 text-sm text-gray-300">
+            <Link href="/about" className="hover:text-white transition">
+              About
+            </Link>
             <Link href="/services" className="hover:text-white transition">
               Services
             </Link>
@@ -28,9 +31,7 @@ export default function Header() {
             <Link href="/security" className="hover:text-white transition">
               Security
             </Link>
-            <Link href="/about" className="hover:text-white transition">
-              About
-            </Link>
+
             <Link href="/contact" className="hover:text-white transition">
               Contact
             </Link>
@@ -44,7 +45,6 @@ export default function Header() {
               Schedule Consultation
             </a>
           </nav>
-
           {/* Hamburger */}
           <button
             className="md:hidden text-white relative w-6 h-6 z-50"
