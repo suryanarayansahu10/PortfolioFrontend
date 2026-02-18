@@ -13,12 +13,17 @@ export default function Contact() {
 
     const formData = new FormData(e.target);
 
-    const response = await fetch(FORMSPREE_ENDPOINT!, {
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      phone: formData.get("phone"),
+      message: formData.get("message"),
+    };
+
+    const response = await fetch("/api/contact", {
       method: "POST",
-      body: formData,
-      headers: {
-        Accept: "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
     });
 
     if (response.ok) {
@@ -181,7 +186,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-md transition disabled:opacity-60"
+                    className="bg-blue-600 cursor-pointer hover:bg-blue-500 text-white px-8 py-3 rounded-md transition disabled:opacity-60"
                   >
                     {loading ? "Submitting..." : "Submit Inquiry"}
                   </button>

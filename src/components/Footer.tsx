@@ -13,7 +13,7 @@ export default function Footer() {
             </h3>
             <p className="mt-4 text-sm leading-relaxed">
               Engineering enterprise-grade internal platforms, automation
-              systems, and scalable MERN stack applications for organizations
+              systems, and scalable web applications for organizations
               modernizing legacy infrastructure.
             </p>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
             <ul className="mt-6 space-y-3 text-sm">
               <li>Data Reconciliation & Migration</li>
               <li>Internal Automation Systems</li>
-              <li>Secure MERN Platforms</li>
+              <li>Scalable Web Applications</li>
               <li>Enterprise Workflow Engineering</li>
             </ul>
           </div>
@@ -73,8 +73,16 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm uppercase tracking-widest">
               Contact
             </h4>
-            <ul className="mt-6 space-y-3 text-sm">
-              <li>Email: consult@nexchunk.com</li>
+            <ul className="mt-6 space-y-3">
+              <li>
+                Email:{" "}
+                <a
+                  href="mailto:contact@nexchunk.com?subject=Consultation Inquiry - NexChunk"
+                  className="hover:text-white underline underline-offset-4 transition"
+                >
+                  contact@nexchunk.com
+                </a>
+              </li>
               <li>Consultation: By Appointment</li>
               <li>
                 <a

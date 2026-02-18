@@ -8,7 +8,7 @@ export default function Services() {
         <title>Services | NexChunk</title>
         <meta
           name="description"
-          content="Enterprise-grade data reconciliation, internal automation systems, and scalable MERN stack application engineering."
+          content="Enterprise-grade data reconciliation, internal automation systems, and scalable web application engineering."
         />
       </Head>
 
@@ -88,7 +88,7 @@ export default function Services() {
       <section className="bg-[#132B4F] text-gray-200">
         <div className="max-w-6xl mx-auto px-6 py-12">
           <h2 className="text-3xl font-semibold text-white tracking-tight">
-            Secure MERN Stack Platform Engineering
+            Scalable Web Applications
           </h2>
 
           <p className="mt-6 text-gray-400 max-w-3xl">

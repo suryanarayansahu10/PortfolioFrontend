@@ -9,7 +9,7 @@ export default function Home() {
         <title>NexChunk</title>
         <meta
           name="description"
-          content="Enterprise-grade internal platforms, automation systems, and scalable MERN stack applications."
+          content="Enterprise-grade internal platforms, automation systems, and scalable web applications."
         />
       </Head>
 
@@ -21,9 +21,9 @@ export default function Home() {
 
           <p className="mt-6 text-lg text-gray-400 max-w-2xl">
             NexChunk designs and builds enterprise-grade internal platforms,
-            automation systems, and scalable MERN stack applications for
-            organizations modernizing legacy infrastructure and high-volume
-            operational workflows.
+            automation systems, and scalable web applications for organizations
+            modernizing legacy infrastructure and high-volume operational
+            workflows.
           </p>
 
           <div className="mt-8 flex items-center space-x-4">
@@ -88,7 +88,7 @@ export default function Home() {
             {/* Capability 3 */}
             <div className="bg-[#0B1F3A] p-8 rounded-lg border border-gray-800 hover:border-gray-600 transition">
               <h3 className="text-xl font-semibold text-white">
-                Secure MERN Stack Platforms
+                Scalable Web Applications
               </h3>
               <p className="mt-4 text-gray-400">
                 Scalable backend-driven applications, dashboards, and
