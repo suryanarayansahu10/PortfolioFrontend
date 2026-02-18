@@ -94,6 +94,28 @@ export default function Footer() {
                   Schedule Consultation
                 </a>
               </li>
+              <li>
+                <div className="flex items-center justify-items-start gap-4 mt-4">
+                  Follow us on
+                  <a
+                    href="https://www.linkedin.com/company/nexchunk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition"
+                    aria-label="LinkedIn"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M20.447 20.452H16.89V14.89c0-1.327-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.94v5.659H9.345V9h3.414v1.561h.049c.476-.9 1.637-1.852 3.37-1.852 3.603 0 4.269 2.372 4.269 5.455v6.288zM5.337 7.433a2.003 2.003 0 1 1 0-4.006 2.003 2.003 0 0 1 0 4.006zM6.9 20.452H3.773V9H6.9v11.452zM22.225 0H1.771C.792 0 0 .775 0 1.729v20.542C0 23.225.792 24 1.771 24h20.451C23.2 24 24 23.225 24 22.271V1.729C24 .775 23.2 0 22.225 0z" />
+                    </svg>
+                  </a>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
