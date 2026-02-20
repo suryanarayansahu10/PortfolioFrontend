@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import Layout from "@/components/Layout";
 import "@/styles/globals.css";
 import { SEO_CONFIG } from "@/lib/seo";
+import Script from "next/script";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -44,6 +45,20 @@ export default function App({ Component, pageProps }: AppProps) {
           }}
         />
       </Head>
+
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=G-TX902WN8VC`}
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TX902WN8VC');
+  `}
+      </Script>
 
       <Layout>
         <Component {...pageProps} />
