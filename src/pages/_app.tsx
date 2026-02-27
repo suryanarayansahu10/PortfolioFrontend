@@ -17,7 +17,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta name="description" content={seo.description} />
         <meta name="robots" content="index, follow" />
-
         <link rel="canonical" href={`https://nexchunk.com${router.pathname}`} />
 
         {/* OpenGraph */}
@@ -28,6 +27,24 @@ export default function App({ Component, pageProps }: AppProps) {
           content={`https://nexchunk.com${router.pathname}`}
         />
         <meta property="og:type" content="website" />
+
+        {/* ⭐ IMPORTANT ADDITIONS */}
+        <meta property="og:site_name" content="NexChunk" />
+        <meta property="og:locale" content="en_IN" />
+
+        <meta property="og:image" content="https://nexchunk.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+
+        {/* Twitter / WhatsApp */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={seo.title} />
+        <meta name="twitter:description" content={seo.description} />
+        <meta
+          name="twitter:image"
+          content="https://nexchunk.com/og-image.png"
+        />
 
         {/* Organization Schema */}
         <script
